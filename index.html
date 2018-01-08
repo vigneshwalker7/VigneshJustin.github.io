@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My Web</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="favicon_home.png"/>
+    <style media="screen">
+    .fa-facebook-square:hover {
+      color: #304c82;
+    }
+    </style>
+  </head>
+  <body onload="startTime();myday();copyright();">
+    <!-- BUG: header div -->
+    <div class="mainpage">
+      <h1 id="timer" class="text-center"></h1>
+      <p id="p" class="text-center"><span id="borderquote">Happy New Year 2018!</span></p>
+      <!-- BUG: social media icons -->
+      <div class="followme">
+        <div class="followmeicons">
+          <a href="https://github.com/VigneshJustin" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
+          <a href="mailto:vigneshwalker1@gmail.com"><i class="fa fa-envelope-o fa-3x" aria-hidden="true"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=100006298622527" target="_blank"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>
+          <a href="intent://send/+919894337866#Intent;scheme=smsto;package=com.whatsapp;action=android.intent.action.SENDTO;end"><i class="fa fa-whatsapp fa-3x" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
+        </div>
+      </div>
+      <h1 id="h1" style="font-family: 'Nunito', sans-serif;" class="text-center">Home</h1>
+    </div>
+    <!-- BUG: iframe -->
+    <iframe src="home.html" width="100%" height="100%" scrolling="no">
+      <!-- BUG: iframe -->
+    </iframe>
+  <!-- BUG: menubar icons section -->
+    <div id="menubar" onmouseover="show()" onmouseout="kill()">
+      <a onclick="changeheading('home')" href="#"><i class="fa fa-home fa-4x animated bounce" aria-hidden="true"></i></a>
+      <a onclick="changeheading('portfolio')" href="#"><i class="fa fa-trophy fa-4x animated bounce" aria-hidden="true"></i></a>
+      <a onclick="changeheading('resume')" href="#"><i class="fa fa-heart fa-4x animated bounce" aria-hidden="true"></i></a>
+      <a onclick="changeheading('hire me')" href="#"><i class="fa fa-hand-peace-o fa-4x animated bounce" aria-hidden="true"></i></a>
+    </div>
+    <!-- home icon -->
+    <div class="profile">
+      <i onmouseover="show()" class="fa fa-user-circle-o animated bounceIn fa-5x" aria-hidden="true"></i>
+    </div>
+    <!-- javascript section -->
+    <script type="text/javascript" src="My Web.js">
+      //source file name: My Web.js
+      //file located on same directory
+    </script>
+    <!-- BUG: details section -->
+    <div class="copyrightdiv">
+      <details>
+        Designed By Vignesh<img height="20px" width="20px" src="Emojis/favicon_resume2.png" alt="heart">Justin, All Rights Reserved.
+        <br>
+        Contact <a href="https://www.facebook.com/profile.php?id=100006298622527" target="_blank">Website Developer</a>
+        <p>Special Thanks to <a href="https://github.com/FR0ST1N" target="_blank">FROSTIN</a> who make possible all of this.</p>
+        <summary>
+          Copyright &copy; <span id="copyright"></span>
+        </summary>
+      </details>
+    </div>
+
+
+  </body>
+</html>
